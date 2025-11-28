@@ -6,7 +6,7 @@ pipeline {
     }
 
     environment {
-        
+        INTERNAL_PORT = "3000"
     }
 
     stages {
