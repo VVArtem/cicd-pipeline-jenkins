@@ -5,13 +5,6 @@ pipeline {
         nodejs 'NodeJS'
     }
 
-    environment {
-        IMAGE_NAME = ""
-        CONTAINER_NAME = ""
-        HOST_PORT = ""
-        INTERNAL_PORT = 3000
-    }
-
     stages {
         stage('Init'){
             steps {
