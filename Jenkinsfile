@@ -5,6 +5,10 @@ pipeline {
         nodejs 'NodeJS'
     }
 
+    environment {
+        INTERNAL_PORT = "3000"
+    }
+
     stages {
         stage('Init'){
             steps {
